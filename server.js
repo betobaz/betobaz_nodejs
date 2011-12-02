@@ -39,7 +39,7 @@ app.get('/', function(req, res){
 // Only listen on $ node app.js
 
 if (!module.parent) {
-  app.listen(process.env.PORT || 41245process.env.PORT || 41245);
+  app.listen(process.env.PORT || 41245);
   console.log("Express server listening on port %d", app.address().port);
 }
 /*var http = require('http');
